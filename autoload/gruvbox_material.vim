@@ -39,7 +39,7 @@ function! gruvbox_material#get_palette(background, foreground, colors_override) 
   if a:background ==# 'hard' "{{{
     if &background ==# 'dark'
       let palette1 = {
-            \ 'bg_dim':           ['#141617',   '232'],
+            \ 'bg_dim':           ['#141617',   '232'],#151718
             \ 'bg0':              ['#1d2021',   '234'],
             \ 'bg1':              ['#282828',   '235'],
             \ 'bg2':              ['#282828',   '235'],
@@ -174,13 +174,13 @@ function! gruvbox_material#get_palette(background, foreground, colors_override) 
       let palette2 = {
             \ 'fg0':              ['#d4be98',   '223'],
             \ 'fg1':              ['#ddc7a1',   '223'],
-            \ 'red':              ['#ea6962',   '167'],
-            \ 'orange':           ['#e78a4e',   '208'],
-            \ 'yellow':           ['#d8a657',   '214'],
-            \ 'green':            ['#a9b665',   '142'],
+            \ 'red':              ['#FB4934',   '167'],
+            \ 'orange':           ['#FE8019',   '208'],
+            \ 'yellow':           ['#FABD2F',   '214'],
+            \ 'green':            ['#8EC07C',   '142'],
             \ 'aqua':             ['#89b482',   '108'],
-            \ 'blue':             ['#7daea3',   '109'],
-            \ 'purple':           ['#d3869b',   '175'],
+            \ 'blue':             ['#83A598',   '109'],
+            \ 'purple':           ['#D3869B',   '175'],
             \ 'bg_red':           ['#ea6962',   '167'],
             \ 'bg_green':         ['#a9b665',   '142'],
             \ 'bg_yellow':        ['#d8a657',   '214']
