@@ -375,15 +375,15 @@ call gruvbox_material#highlight('StorageClass', s:palette.orange, s:palette.none
 call gruvbox_material#highlight('Tag', s:palette.orange, s:palette.none)
 call gruvbox_material#highlight('Label', s:palette.orange, s:palette.none)
 call gruvbox_material#highlight('Structure', s:palette.orange, s:palette.none)
-call gruvbox_material#highlight('Operator', s:palette.orange, s:palette.none)
+call gruvbox_material#highlight('Operator', s:palette.green, s:palette.none)
 call gruvbox_material#highlight('Title', s:palette.orange, s:palette.none, 'bold')
 call gruvbox_material#highlight('Special', s:palette.yellow, s:palette.none)
 call gruvbox_material#highlight('SpecialChar', s:palette.yellow, s:palette.none)
 call gruvbox_material#highlight('Type', s:palette.yellow, s:palette.none)
 if s:configuration.enable_bold
-  call gruvbox_material#highlight('Function', s:palette.green, s:palette.none, 'bold')
+  call gruvbox_material#highlight('Function', s:palette.yellow, s:palette.none, 'bold')
 else
-  call gruvbox_material#highlight('Function', s:palette.green, s:palette.none)
+  call gruvbox_material#highlight('Function', s:palette.yellow, s:palette.none)
 endif
 call gruvbox_material#highlight('String', s:palette.green, s:palette.none)
 call gruvbox_material#highlight('Character', s:palette.green, s:palette.none)
