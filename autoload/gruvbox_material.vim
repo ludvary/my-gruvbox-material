@@ -39,13 +39,13 @@ function! gruvbox_material#get_palette(background, foreground, colors_override) 
   if a:background ==# 'hard' "{{{
     if &background ==# 'dark'
       let palette1 = {
-            \ 'bg_dim':           ['#141414',   '232'],
-            \ 'bg0':              ['#141414',   '234'],
-            \ 'bg1':              ['#141414',   '235'],
-            \ 'bg2':              ['#141414',   '235'],
-            \ 'bg3':              ['#141414',   '237'],
-            \ 'bg4':              ['#141414',   '237'],
-            \ 'bg5':              ['#141414',   '239'],
+            \ 'bg_dim':           ['#0B0B0B',   '232'],
+            \ 'bg0':              ['#0B0B0B',   '234'],
+            \ 'bg1':              ['#0B0B0B',   '235'],
+            \ 'bg2':              ['#0B0B0B',   '235'],
+            \ 'bg3':              ['#0B0B0B',   '237'],
+            \ 'bg4':              ['#0B0B0B',   '237'],
+            \ 'bg5':              ['#0B0B0B',   '239'],
             \ 'bg_statusline1':   ['#282828',   '235'],
             \ 'bg_statusline2':   ['#504945',   '235'],
             \ 'bg_statusline3':   ['#504945',   '239'],
