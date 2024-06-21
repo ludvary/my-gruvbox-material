@@ -1,3 +1,5 @@
+## This is sainnhe's gruvbox with increased constrast and some minor changes to syntax colors and backgrounds.
+
 ## Introduction
 
 Gruvbox Material is a modified version of [Gruvbox](https://github.com/morhetz/gruvbox), the contrast is adjusted to be softer in order to protect developers' eyes.
