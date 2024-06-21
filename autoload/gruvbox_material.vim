@@ -56,7 +56,7 @@ function! gruvbox_material#get_palette(background, foreground, colors_override) 
             \ 'bg_diff_blue':     ['#0d3138',   '17'],
             \ 'bg_visual_blue':   ['#2e3b3b',   '17'],
             \ 'bg_visual_yellow': ['#473c29',   '94'],
-            \ 'bg_current_word':  ['#32302f',   '236']
+            \ 'bg_current_word':  ['#040404',   '236']
             \ }
     else
       let palette1 = {
