@@ -1,4 +1,4 @@
-## This is sainnhe's gruvbox with increased contrast and some minor changes to syntax colors and backgrounds.
+## This is sainnhe's gruvbox with increased contrast and some minor changes to syntax and background colors.
 
 ## Introduction
 
