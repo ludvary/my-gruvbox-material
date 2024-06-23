@@ -45,7 +45,7 @@ function! gruvbox_material#get_palette(background, foreground, colors_override) 
             \ 'bg2':              ['#0B0B0B',   '235'],
             \ 'bg3':              ['#0B0B0B',   '237'],
             \ 'bg4':              ['#0B0B0B',   '237'],
-            \ 'bg5':              ['#0B0B0B',   '239'],
+            \ 'bg5':              ['#282828',   '239'],
             \ 'bg_statusline1':   ['#282828',   '235'],
             \ 'bg_statusline2':   ['#504945',   '235'],
             \ 'bg_statusline3':   ['#504945',   '239'],
